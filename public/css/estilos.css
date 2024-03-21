@@ -1,0 +1,17 @@
+/* Estilos personalizados para el menú de pestañas */
+.nav-tabs .nav-item .nav-link {
+    color: #000000; /* Color del texto */
+    background-color: #f8f9fa; /* Color de fondo */
+    border: 0px solid #dee2e6; /* Borde */
+    border-radius: 3; /* Borde redondeado */
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    color: #fff; /* Color del texto activo */
+    background-color: #000000; /* Color de fondo activo */
+    border-color: #000000; /* Borde activo */
+}
+
+.nav-tabs .nav-item .nav-link:hover {
+    background-color: #565a5e; /* Color de fondo al pasar el cursor */
+}
