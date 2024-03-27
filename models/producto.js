@@ -1,6 +1,6 @@
 const {mongoose} = require('../database/conexion');
 const productoSchema = new mongoose.Schema({
-    nombre: {
+    nombrep: {
         type: String,
         required: true
     },
